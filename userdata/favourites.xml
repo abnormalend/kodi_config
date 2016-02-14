@@ -1,0 +1,5 @@
+<favourites>
+    <favourite name="LeahTV">ActivateWindow(10025,&quot;special://profile/playlists/video/LeahTV.xsp&quot;,return)</favourite>
+    <favourite name="Shows we are watching">ActivateWindow(10025,&quot;special://profile/playlists/video/Shows we are watching.xsp&quot;,return)</favourite>
+    <favourite name="Kids">LoadProfile(kids)</favourite>
+</favourites>

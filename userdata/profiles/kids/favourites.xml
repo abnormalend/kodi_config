@@ -1,0 +1,4 @@
+<favourites>
+    <favourite name="Batman TV">ActivateWindow(10025,&quot;special://profile/playlists/video/Batman TV.xsp&quot;,return)</favourite>
+    <favourite name="Main">LoadProfile(Master User)</favourite>
+</favourites>

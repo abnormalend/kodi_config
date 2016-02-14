@@ -1,0 +1,41 @@
+<advancedsettings>
+    <videodatabase>
+        <type>mysql</type>
+        <host>192.168.1.69</host>
+        <port>3306</port>
+        <user>xbmc</user>
+        <pass>xbmc</pass>
+    </videodatabase>
+    <musicdatabase>
+        <type>mysql</type>
+        <host>192.168.1.69</host>
+        <port>3306</port>
+        <user>xbmc</user>
+        <pass>xbmc</pass>
+    </musicdatabase>
+     <videolibrary>
+          <importwatchedstate>true</importwatchedstate>
+     </videolibrary>
+        <pathsubstitution>
+                <substitute>
+                        <from>special://profile/playlists/</from>
+
+<to>smb://192.168.1.69/xbmc/userdata/playlists/</to>
+                </substitute>
+                <substitute>
+                        <from>special://profile/thumbnails/</from>
+
+<to>smb://192.168.1.69/xbmc/userdata/thumbnails/</to>
+                </substitute>
+                <substitute>
+                        <from>special://profile/sources.xml</from>
+
+<to>smb://192.168.1.69/xbmc/userdata/sources.xml</to>
+                </substitute>
+                <substitute>
+                        <from>special://profile/mediasources.xml</from>
+
+<to>smb://192.168.1.69/xbmc/userdata/mediasources.xml</to>
+                </substitute>
+        </pathsubstitution>
+</advancedsettings>
