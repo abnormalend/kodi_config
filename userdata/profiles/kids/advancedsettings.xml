@@ -2,7 +2,7 @@
 <advancedsettings>
     <videodatabase>
         <type>mysql</type>
-        <host>192.168.1.69</host>
+        <host>ash</host>
         <port>3306</port>
         <user>xbmc</user>
         <pass>xbmc</pass>
@@ -11,7 +11,7 @@
 
     <musicdatabase>
         <type>mysql</type>
-        <host>192.168.1.69</host>
+        <host>ash</host>
         <port>3306</port>
         <user>xbmc</user>
         <pass>xbmc</pass>
@@ -24,22 +24,22 @@
                 <substitute>
                         <from>special://profile/playlists/</from>
 
-<to>smb://192.168.1.69/xbmc/userdata/playlists/</to>
+<to>smb://ash/xbmc/userdata/playlists/</to>
                 </substitute>
                 <substitute>
                         <from>special://profile/thumbnails/</from>
 
-<to>smb://192.168.1.69/xbmc/userdata/thumbnails/</to>
+<to>smb://ash/xbmc/userdata/thumbnails/</to>
                 </substitute>
                 <substitute>
                         <from>special://profile/sources.xml</from>
 
-<to>smb://192.168.1.69/xbmc/userdata/sources.xml</to>
+<to>smb://ash/xbmc/userdata/sources.xml</to>
                 </substitute>
                 <substitute>
                         <from>special://profile/mediasources.xml</from>
 
-<to>smb://192.168.1.69/xbmc/userdata/mediasources.xml</to>
+<to>smb://ash/xbmc/userdata/mediasources.xml</to>
                 </substitute>
         </pathsubstitution>
 </advancedsettings>
